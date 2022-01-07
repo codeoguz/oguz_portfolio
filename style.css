@@ -15,6 +15,12 @@ body{
     margin: auto;
 }
 
+.icon{
+    width: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 c-navbar{
     background-color: rgb(216, 0, 72);
 }
@@ -26,6 +32,9 @@ c-navbar{
         font-size: 35px;
         padding-left: 15px;     
     }
+    .row{
+        margin-top: 20px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -35,5 +44,8 @@ c-navbar{
         font-size: 35px;
         padding-left: 15px;
         margin: auto;
+    }
+    .row{
+        margin-top: 30px;
     }
 }
